@@ -1,0 +1,191 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: whitesmoke;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: blue;
+}
+
+.quiz-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#question {
+    margin-bottom: 20px;
+}
+
+.choice-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.choice-container:hover {
+    background-color: whitesmoke;
+}
+
+.choice-prefix {
+    margin-right: 10px;
+}
+
+.choice-text {
+    flex-grow: 1;
+}
+
+#progress-bar {
+    width: 100px;
+    height: 25px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+#progress-bar-full {
+    height: 100%;
+    width: 0%;
+    background-color: blue;
+    transition: width 0.3s;
+}
+
+/* Styles for the End Page */
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin: 5px;
+}
+
+.btn:hover {
+    background-color: blue;
+}
+
+.choice-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid grey;
+    margin: 5px 0;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.choice-container:hover {
+    background-color: #f1f1f1;
+}
+
+
+.choice-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    margin: 5px 0;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.choice-container:hover {
+    background-color: #f1f1f1;
+}
+
+.progress-container {
+    height: 20px;
+    width: 100%;
+    background-color: grey;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.progress-bar-full {
+    height: 100%;
+    background-color: lightgreen;
+    width: 0;
+    transition: width 0.3s;
+}
+
+/* Choice Container */
+.choice-container {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.choice-container.correct {
+    background-color: green;
+    color: white;
+}
+
+.choice-container.incorrect {
+    background-color: red;
+    color: white;
+}
+
+.choice-container:hover {
+    background-color: whitesmoke;
+}
